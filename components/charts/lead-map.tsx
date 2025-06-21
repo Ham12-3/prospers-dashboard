@@ -152,8 +152,17 @@ export default function LeadMap() {
   const [mapLoaded, setMapLoaded] = useState(false)
   const [mapError, setMapError] = useState<string | null>(null)
   const [geographiesCount, setGeographiesCount] = useState(0)
+  const [isMobile, setIsMobile] = useState(false)
 
   useEffect(() => {
+    // Mobile detection
+    const checkMobile = () => {
+      setIsMobile(window.innerWidth < 768)
+    }
+    
+    checkMobile()
+    window.addEventListener('resize', checkMobile)
+
     // Update time every second for realistic feel
     const timeInterval = setInterval(() => {
       setCurrentTime(new Date())
@@ -170,6 +179,7 @@ export default function LeadMap() {
     return () => {
       clearInterval(timeInterval)
       clearInterval(animationInterval)
+      window.removeEventListener('resize', checkMobile)
     }
   }, [])
 
@@ -192,12 +202,7 @@ export default function LeadMap() {
 
   return (
     <div className="relative h-full w-full overflow-hidden bg-slate-950">
-      {/* Debug Info */}
-      <div className="absolute top-2 right-2 z-50 text-xs text-cyan-400 bg-slate-900/80 p-2 rounded">
-        <div>Map Loaded: {mapLoaded ? 'Yes' : 'No'}</div>
-        <div>Geographies: {geographiesCount}</div>
-        <div>Error: {mapError || 'None'}</div>
-      </div>
+
 
       {/* Futuristic Background with Multiple Layers */}
       <div className="absolute inset-0">
@@ -296,12 +301,12 @@ export default function LeadMap() {
         </div>
       )}
 
-      {/* Map Container */}
+      {/* Map Container - Enhanced for Mobile */}
       <div className="absolute inset-0 z-0">
         <ComposableMap
           projection="geoMercator"
           projectionConfig={{
-            scale: 100,
+            scale: isMobile ? 75 : 100,
             center: [0, 0]
           }}
           width={800}
@@ -452,7 +457,7 @@ export default function LeadMap() {
             )
           })}
 
-          {/* Ultra-Enhanced Location Markers */}
+                    {/* Ultra-Enhanced Location Markers - Mobile Optimized */}
           {mapLocations.map((location, index) => {
             const isSelected = selectedLocation?.id === location.id
             const isHovered = hoveredLocation === location.id
@@ -463,13 +468,13 @@ export default function LeadMap() {
                 key={location.id}
                 coordinates={location.coordinates}
                 onClick={() => setSelectedLocation(location)}
-                onMouseEnter={() => setHoveredLocation(location.id)}
-                onMouseLeave={() => setHoveredLocation(null)}
+                onMouseEnter={() => !isMobile && setHoveredLocation(location.id)}
+                onMouseLeave={() => !isMobile && setHoveredLocation(null)}
               >
                 <g style={{ cursor: "pointer" }}>
-                  {/* Outermost detection ring */}
+                  {/* Outermost detection ring - Larger on mobile */}
                   <circle
-                    r={isSelected || isHovered ? "35" : "30"}
+                    r={isMobile ? (isSelected ? "50" : "45") : (isSelected || isHovered ? "35" : "30")}
                     fill={statusColor}
                     opacity="0.05"
                     style={{
@@ -480,7 +485,7 @@ export default function LeadMap() {
                   
                   {/* Secondary pulse ring */}
                   <circle
-                    r={isSelected || isHovered ? "25" : "22"}
+                    r={isMobile ? (isSelected ? "36" : "32") : (isSelected || isHovered ? "25" : "22")}
                     fill={statusColor}
                     opacity="0.1"
                     style={{
@@ -491,7 +496,7 @@ export default function LeadMap() {
                   
                   {/* Tertiary pulse */}
                   <circle
-                    r={isSelected || isHovered ? "18" : "16"}
+                    r={isMobile ? (isSelected ? "28" : "24") : (isSelected || isHovered ? "18" : "16")}
                     fill={statusColor}
                     opacity="0.15"
                     style={{
@@ -502,10 +507,10 @@ export default function LeadMap() {
                   
                   {/* Status indicator ring with glow */}
                   <circle
-                    r={isSelected || isHovered ? "14" : "12"}
+                    r={isMobile ? (isSelected ? "22" : "20") : (isSelected || isHovered ? "14" : "12")}
                     fill="none"
                     stroke={statusColor}
-                    strokeWidth={isSelected || isHovered ? "3" : "2.5"}
+                    strokeWidth={isMobile ? (isSelected ? "4" : "3.5") : (isSelected || isHovered ? "3" : "2.5")}
                     opacity={isSelected || isHovered ? "1" : "0.9"}
                     style={{
                       filter: `drop-shadow(0 0 12px ${statusColor}60)`,
@@ -515,10 +520,10 @@ export default function LeadMap() {
                   
                   {/* Inner status ring */}
                   <circle
-                    r={isSelected || isHovered ? "10" : "8"}
+                    r={isMobile ? (isSelected ? "18" : "16") : (isSelected || isHovered ? "10" : "8")}
                     fill="none"
                     stroke={statusColor}
-                    strokeWidth="1.5"
+                    strokeWidth={isMobile ? "2" : "1.5"}
                     opacity="0.6"
                     strokeDasharray={isSelected || isHovered ? "none" : "2,2"}
                     style={{
@@ -527,9 +532,9 @@ export default function LeadMap() {
                     }}
                   />
                   
-                  {/* Core marker */}
+                  {/* Core marker - Larger on mobile */}
                   <circle
-                    r={isSelected || isHovered ? "8" : "6"}
+                    r={isMobile ? (isSelected ? "14" : "12") : (isSelected || isHovered ? "8" : "6")}
                     fill={statusColor}
                     style={{
                       filter: `drop-shadow(0 0 8px ${statusColor}) drop-shadow(0 0 16px ${statusColor}40)`,
@@ -539,31 +544,31 @@ export default function LeadMap() {
                   
                   {/* Central highlight */}
                   <circle
-                    r={isSelected || isHovered ? "4" : "3"}
+                    r={isMobile ? (isSelected ? "8" : "6") : (isSelected || isHovered ? "4" : "3")}
                     fill="#FFFFFF"
                     opacity="0.9"
                     style={{ transition: "all 0.4s ease" }}
                   />
                   
-                  {/* Lead count display */}
+                  {/* Lead count display - Mobile Enhanced */}
                   <text
                     textAnchor="middle"
-                    y={isSelected || isHovered ? "24" : "22"}
-                    className="fill-white text-xs font-bold"
+                    y={isMobile ? (isSelected ? "32" : "30") : (isSelected || isHovered ? "24" : "22")}
+                    className="fill-white font-bold"
                     style={{
                       filter: "drop-shadow(0 2px 4px rgba(0,0,0,0.8))",
-                      fontSize: isSelected || isHovered ? "12px" : "11px",
+                      fontSize: isMobile ? (isSelected ? "18px" : "16px") : (isSelected || isHovered ? "12px" : "10px"),
                       transition: "all 0.4s ease"
                     }}
                   >
                     {location.leads}
                   </text>
                   
-                  {/* Region indicator */}
+                  {/* Region indicator - Hidden on mobile */}
                   <text
                     textAnchor="middle"
                     y={isSelected || isHovered ? "-20" : "-18"}
-                    className="fill-slate-300 text-xs font-mono"
+                    className="fill-slate-300 text-xs font-mono hidden md:block"
                     style={{
                       filter: "drop-shadow(0 1px 2px rgba(0,0,0,0.8))",
                       fontSize: "8px",
@@ -580,43 +585,43 @@ export default function LeadMap() {
         </ComposableMap>
       </div>
 
-      {/* Enhanced Statistics Panel */}
+      {/* Enhanced Statistics Panel - Mobile Optimized */}
       <motion.div 
-        className="absolute bottom-6 left-6 z-20"
+        className="absolute bottom-2 left-2 md:bottom-6 md:left-6 z-20"
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.8 }}
       >
-        <div className="bg-slate-950/95 backdrop-blur-lg border border-cyan-500/30 rounded-xl p-6 min-w-[300px]">
-          <div className="flex items-center gap-3 mb-6">
-            <div className="w-3 h-3 bg-cyan-400 rounded-full animate-pulse" />
-            <span className="text-cyan-400 text-lg font-mono font-bold">GLOBAL ANALYTICS</span>
+        <div className="bg-slate-950/98 backdrop-blur-lg border border-cyan-500/30 rounded-xl p-2 md:p-6 min-w-[200px] md:min-w-[300px] max-w-[calc(100vw-16px)] md:max-w-none">
+          <div className="flex items-center gap-2 md:gap-3 mb-2 md:mb-6">
+            <div className="w-2 h-2 md:w-3 md:h-3 bg-cyan-400 rounded-full animate-pulse" />
+            <span className="text-cyan-400 text-xs md:text-lg font-mono font-bold">GLOBAL ANALYTICS</span>
           </div>
           
-          <div className="grid grid-cols-3 gap-6">
+          <div className="grid grid-cols-3 gap-2 md:gap-6">
             <div className="text-center">
-              <div className="text-slate-400 text-xs font-mono mb-2">REGIONS</div>
-              <div className="text-white font-bold text-2xl">{mapLocations.length}</div>
+              <div className="text-slate-400 text-xs font-mono mb-1 md:mb-2">REGIONS</div>
+              <div className="text-white font-bold text-sm md:text-2xl">{mapLocations.length}</div>
               <div className="text-cyan-400 text-xs font-mono mt-1">ACTIVE</div>
             </div>
             <div className="text-center">
-              <div className="text-slate-400 text-xs font-mono mb-2">TOTAL LEADS</div>
-              <div className="text-emerald-400 font-bold text-2xl">{totalLeads.toLocaleString()}</div>
-              <div className="text-emerald-400 text-xs font-mono mt-1">IDENTIFIED</div>
+              <div className="text-slate-400 text-xs font-mono mb-1 md:mb-2">LEADS</div>
+              <div className="text-emerald-400 font-bold text-sm md:text-2xl">{totalLeads.toLocaleString()}</div>
+              <div className="text-emerald-400 text-xs font-mono mt-1">TOTAL</div>
             </div>
             <div className="text-center">
-              <div className="text-slate-400 text-xs font-mono mb-2">PIPELINE</div>
-              <div className="text-amber-400 font-bold text-2xl">${totalPipeline.toFixed(1)}M</div>
-              <div className="text-amber-400 text-xs font-mono mt-1">VALUE</div>
+              <div className="text-slate-400 text-xs font-mono mb-1 md:mb-2">VALUE</div>
+              <div className="text-amber-400 font-bold text-sm md:text-2xl">${totalPipeline.toFixed(1)}M</div>
+              <div className="text-amber-400 text-xs font-mono mt-1">PIPELINE</div>
             </div>
           </div>
           
-          {/* Real-time activity indicator */}
-          <div className="mt-4 pt-4 border-t border-slate-700/50">
+          {/* Real-time activity indicator - Simplified on mobile */}
+          <div className="mt-2 md:mt-4 pt-2 md:pt-4 border-t border-slate-700/50">
             <div className="flex items-center justify-between">
-              <span className="text-slate-400 text-xs font-mono">SYSTEM STATUS</span>
-              <div className="flex items-center gap-2">
-                <div className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse" />
+              <span className="text-slate-400 text-xs font-mono">STATUS</span>
+              <div className="flex items-center gap-1 md:gap-2">
+                <div className="w-1.5 h-1.5 md:w-2 md:h-2 bg-emerald-400 rounded-full animate-pulse" />
                 <span className="text-emerald-400 text-xs font-mono">OPERATIONAL</span>
               </div>
             </div>
@@ -624,45 +629,45 @@ export default function LeadMap() {
         </div>
       </motion.div>
 
-      {/* Enhanced Status Legend */}
+      {/* Enhanced Status Legend - Mobile Optimized */}
       <motion.div 
-        className="absolute bottom-6 right-6 z-20"
+        className="absolute bottom-2 right-2 md:bottom-6 md:right-6 z-20"
         initial={{ opacity: 0, y: 30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 1.0 }}
       >
-        <div className="bg-slate-950/95 backdrop-blur-lg border border-cyan-500/30 rounded-xl p-6">
-          <div className="flex items-center gap-3 mb-6">
-            <div className="w-3 h-3 bg-cyan-400 rounded-full animate-pulse" />
-            <span className="text-cyan-400 text-lg font-mono font-bold">STATUS MATRIX</span>
+        <div className="bg-slate-950/98 backdrop-blur-lg border border-cyan-500/30 rounded-xl p-2 md:p-6 max-w-[calc(50vw-8px)] md:max-w-none">
+          <div className="flex items-center gap-2 md:gap-3 mb-2 md:mb-6">
+            <div className="w-2 h-2 md:w-3 md:h-3 bg-cyan-400 rounded-full animate-pulse" />
+            <span className="text-cyan-400 text-xs md:text-lg font-mono font-bold">STATUS</span>
           </div>
           
-          <div className="space-y-4">
+          <div className="space-y-2 md:space-y-4">
             {['active', 'pending', 'completed'].map((status) => {
               const badge = getStatusBadge(status)
               const count = mapLocations.filter(loc => loc.status === status).length
               const percentage = Math.round((count / mapLocations.length) * 100)
               
               return (
-                <div key={status} className="space-y-2">
+                <div key={status} className="space-y-1 md:space-y-2">
                   <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-3">
+                    <div className="flex items-center gap-1 md:gap-3">
                       <div 
-                        className="w-4 h-4 rounded-full"
+                        className="w-2 h-2 md:w-4 md:h-4 rounded-full"
                         style={{ backgroundColor: badge.color, boxShadow: `0 0 8px ${badge.color}40` }}
                       />
-                      <span className="text-slate-300 text-sm font-mono uppercase font-bold">
-                        {badge.label}
+                      <span className="text-slate-300 text-xs md:text-sm font-mono uppercase font-bold">
+                        {status === 'active' ? 'ACT' : status === 'pending' ? 'PEN' : 'COM'}
                       </span>
                     </div>
                     <div className="text-right">
-                      <div className="text-white font-bold text-lg">{count}</div>
+                      <div className="text-white font-bold text-xs md:text-lg">{count}</div>
                       <div className="text-slate-400 text-xs font-mono">{percentage}%</div>
                     </div>
                   </div>
-                  <div className="w-full bg-slate-800 rounded-full h-1.5">
+                  <div className="w-full bg-slate-800 rounded-full h-1 md:h-1.5">
                     <div 
-                      className="h-1.5 rounded-full transition-all duration-1000"
+                      className="h-1 md:h-1.5 rounded-full transition-all duration-1000"
                       style={{ 
                         backgroundColor: badge.color,
                         width: `${percentage}%`,
@@ -677,38 +682,56 @@ export default function LeadMap() {
         </div>
       </motion.div>
 
-      {/* Ultra-Enhanced Location Details Panel */}
+      {/* Ultra-Enhanced Location Details Panel - Mobile Optimized */}
       <AnimatePresence>
         {selectedLocation && (
           <motion.div
             initial={{ opacity: 0, scale: 0.8, y: -30 }}
             animate={{ opacity: 1, scale: 1, y: 0 }}
             exit={{ opacity: 0, scale: 0.8, y: -30 }}
-            className="absolute top-6 right-6 z-40"
+            className={`absolute z-40 ${
+              isMobile 
+                ? 'top-4 left-4 right-4 bottom-4 max-h-[calc(100vh-32px)]' 
+                : 'top-2 right-2 md:top-6 md:right-6 max-w-[90vw] md:max-w-none'
+            }`}
           >
-            <div className="bg-slate-950/98 backdrop-blur-xl border border-cyan-500/40 rounded-2xl p-8 min-w-[350px] shadow-2xl">
-              {/* Header */}
-              <div className="flex items-start justify-between mb-6">
-                <div>
-                  <h3 className="text-white font-bold text-2xl">{selectedLocation.name}</h3>
-                  <p className="text-slate-400 text-lg font-mono">{selectedLocation.country}</p>
-                  <p className="text-cyan-400 text-sm font-mono mt-1">{selectedLocation.region} Region</p>
+            <div className={`bg-slate-950/98 backdrop-blur-xl border border-cyan-500/40 rounded-2xl shadow-2xl ${
+              isMobile 
+                ? 'p-4 h-full overflow-y-auto' 
+                : 'p-4 md:p-8 min-w-[280px] md:min-w-[350px]'
+            }`}>
+              {/* Header - Mobile Optimized */}
+              <div className="flex items-start justify-between mb-4 md:mb-6">
+                <div className="flex-1 min-w-0">
+                  <h3 className={`text-white font-bold ${isMobile ? 'text-xl' : 'text-lg md:text-2xl'} truncate`}>
+                    {selectedLocation.name}
+                  </h3>
+                  <p className={`text-slate-400 font-mono ${isMobile ? 'text-base' : 'text-sm md:text-lg'}`}>
+                    {selectedLocation.country}
+                  </p>
+                  <p className={`text-cyan-400 font-mono mt-1 ${isMobile ? 'text-sm' : 'text-xs md:text-sm'}`}>
+                    {selectedLocation.region} Region
+                  </p>
                 </div>
                 <button
                   onClick={() => setSelectedLocation(null)}
-                  className="text-slate-400 hover:text-white transition-colors p-2 hover:bg-slate-800/50 rounded-lg"
+                  className={`text-slate-400 hover:text-white transition-colors hover:bg-slate-800/50 rounded-lg flex-shrink-0 ${
+                    isMobile ? 'p-3' : 'p-1 md:p-2'
+                  }`}
                 >
-                  <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <svg className={`${isMobile ? 'w-6 h-6' : 'w-5 h-5 md:w-6 md:h-6'}`} fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
                   </svg>
                 </button>
               </div>
 
               {/* Enhanced Status Badge */}
-              <div className="mb-6">
-                <div className={`inline-flex items-center gap-3 px-4 py-2 rounded-full text-sm font-mono font-bold ${getStatusBadge(selectedLocation.status).bg} border border-current`}>
+              <div className="mb-4 md:mb-6">
+                <div className={`inline-flex items-center gap-3 px-4 py-2 rounded-full font-mono font-bold ${getStatusBadge(selectedLocation.status).bg} border border-current ${
+                  isMobile ? 'text-base' : 'text-sm'
+                }`}>
                   <div 
-                    className="w-3 h-3 rounded-full animate-pulse"
+                    className={`rounded-full animate-pulse ${isMobile ? 'w-4 h-4' : 'w-3 h-3'}`}
                     style={{ backgroundColor: getStatusColor(selectedLocation.status) }}
                   />
                   {getStatusBadge(selectedLocation.status).label}
@@ -716,26 +739,34 @@ export default function LeadMap() {
                 </div>
               </div>
 
-              {/* Enhanced Metrics Grid */}
-              <div className="grid grid-cols-2 gap-6 mb-6">
-                <div className="space-y-2">
+              {/* Enhanced Metrics Grid - Mobile Optimized */}
+              <div className={`grid grid-cols-2 mb-4 md:mb-6 ${isMobile ? 'gap-4' : 'gap-3 md:gap-6'}`}>
+                <div className={`space-y-2 ${isMobile ? 'p-3 bg-slate-800/30 rounded-lg' : 'space-y-1 md:space-y-2'}`}>
                   <div className="text-slate-400 text-xs font-mono">ACTIVE LEADS</div>
-                  <div className="text-white font-bold text-3xl">{selectedLocation.leads}</div>
+                  <div className={`text-white font-bold ${isMobile ? 'text-2xl' : 'text-xl md:text-3xl'}`}>
+                    {selectedLocation.leads}
+                  </div>
                   <div className="text-cyan-400 text-xs font-mono">IDENTIFIED</div>
                 </div>
-                <div className="space-y-2">
+                <div className={`space-y-2 ${isMobile ? 'p-3 bg-slate-800/30 rounded-lg' : 'space-y-1 md:space-y-2'}`}>
                   <div className="text-slate-400 text-xs font-mono">PIPELINE VALUE</div>
-                  <div className="text-amber-400 font-bold text-3xl">{selectedLocation.pipeline}</div>
+                  <div className={`text-amber-400 font-bold ${isMobile ? 'text-2xl' : 'text-xl md:text-3xl'}`}>
+                    {selectedLocation.pipeline}
+                  </div>
                   <div className="text-amber-400 text-xs font-mono">PROJECTED</div>
                 </div>
-                <div className="space-y-2">
+                <div className={`space-y-2 ${isMobile ? 'p-3 bg-slate-800/30 rounded-lg' : 'space-y-1 md:space-y-2'}`}>
                   <div className="text-slate-400 text-xs font-mono">CLOSED DEALS</div>
-                  <div className="text-emerald-400 font-bold text-3xl">{selectedLocation.value}</div>
+                  <div className={`text-emerald-400 font-bold ${isMobile ? 'text-2xl' : 'text-xl md:text-3xl'}`}>
+                    {selectedLocation.value}
+                  </div>
                   <div className="text-emerald-400 text-xs font-mono">REALIZED</div>
                 </div>
-                <div className="space-y-2">
+                <div className={`space-y-2 ${isMobile ? 'p-3 bg-slate-800/30 rounded-lg' : 'space-y-1 md:space-y-2'}`}>
                   <div className="text-slate-400 text-xs font-mono">LAST ACTIVITY</div>
-                  <div className="text-cyan-400 font-bold text-lg">{selectedLocation.lastActivity}</div>
+                  <div className={`text-cyan-400 font-bold ${isMobile ? 'text-lg' : 'text-sm md:text-lg'}`}>
+                    {selectedLocation.lastActivity}
+                  </div>
                   <div className="text-cyan-400 text-xs font-mono">UPDATED</div>
                 </div>
               </div>
@@ -749,9 +780,9 @@ export default function LeadMap() {
                       {Math.round((parseFloat(selectedLocation.value.replace(/[$M,K]/g, '')) / parseFloat(selectedLocation.pipeline.replace(/[$M,K]/g, ''))) * 100)}%
                     </span>
                   </div>
-                  <div className="w-full bg-slate-800 rounded-full h-3 overflow-hidden">
+                  <div className={`w-full bg-slate-800 rounded-full overflow-hidden ${isMobile ? 'h-4' : 'h-3'}`}>
                     <div 
-                      className="bg-gradient-to-r from-cyan-500 via-emerald-500 to-amber-500 h-3 rounded-full transition-all duration-2000 relative"
+                      className={`bg-gradient-to-r from-cyan-500 via-emerald-500 to-amber-500 rounded-full transition-all duration-2000 relative ${isMobile ? 'h-4' : 'h-3'}`}
                       style={{ 
                         width: `${Math.round((parseFloat(selectedLocation.value.replace(/[$M,K]/g, '')) / parseFloat(selectedLocation.pipeline.replace(/[$M,K]/g, ''))) * 100)}%` 
                       }}
@@ -766,8 +797,8 @@ export default function LeadMap() {
                     <span className="text-slate-400 font-mono">ACTIVITY LEVEL</span>
                     <span className="text-emerald-400 font-mono font-bold">HIGH</span>
                   </div>
-                  <div className="w-full bg-slate-800 rounded-full h-2">
-                    <div className="bg-gradient-to-r from-emerald-500 to-cyan-500 h-2 rounded-full w-4/5 animate-pulse" />
+                  <div className={`w-full bg-slate-800 rounded-full ${isMobile ? 'h-3' : 'h-2'}`}>
+                    <div className={`bg-gradient-to-r from-emerald-500 to-cyan-500 rounded-full w-4/5 animate-pulse ${isMobile ? 'h-3' : 'h-2'}`} />
                   </div>
                 </div>
               </div>
