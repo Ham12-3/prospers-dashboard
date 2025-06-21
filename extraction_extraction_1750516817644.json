@@ -1,0 +1,1430 @@
+{
+  "data": {
+    "assets": {
+      "fonts": [],
+      "images": [
+        {
+          "alt": "",
+          "aspectRatio": 1,
+          "element": "img",
+          "height": 46,
+          "url": "https://framerusercontent.com/images/LzvTHgAPetY9xUOpUhDUI2zhs.png",
+          "width": 46
+        },
+        {
+          "alt": "",
+          "aspectRatio": 1,
+          "element": "img",
+          "height": 608,
+          "url": "https://framerusercontent.com/images/1xOqMa4sAAwBCrdkiSJfIXups.png",
+          "width": 900
+        },
+        {
+          "alt": "",
+          "aspectRatio": 0.9771430278765425,
+          "element": "img",
+          "height": 415,
+          "url": "https://framerusercontent.com/images/XlhSFznctlmTCE8txmmrNIZ6Q.svg",
+          "width": 406
+        },
+        {
+          "alt": "",
+          "aspectRatio": 0.9771430278765425,
+          "element": "img",
+          "height": 415,
+          "url": "https://framerusercontent.com/images/7WNavCG9lfFGI7YEfLtQjK2Xsg.svg",
+          "width": 406
+        },
+        {
+          "alt": "",
+          "aspectRatio": 1,
+          "element": "img",
+          "height": 24,
+          "url": "https://framerusercontent.com/images/LzvTHgAPetY9xUOpUhDUI2zhs.png?scale-down-to=512",
+          "width": 24
+        },
+        {
+          "alt": "Dashboard Image",
+          "aspectRatio": 2.4416809905066583,
+          "element": "img",
+          "height": 789,
+          "url": "https://framerusercontent.com/images/y2ROVOPQkKDkSfCaJYjwo8KtbA.png",
+          "width": 1380
+        },
+        {
+          "alt": "",
+          "aspectRatio": 1.1784296144485717,
+          "element": "img",
+          "height": 352,
+          "url": "https://framerusercontent.com/images/CUYSOJtRo7gSzglaVy8nEqnqhOY.png",
+          "width": 575
+        },
+        {
+          "alt": "",
+          "aspectRatio": 1.204365826119684,
+          "element": "img",
+          "height": 336,
+          "url": "https://framerusercontent.com/images/VfqApuzHNPxPjPXiVGLv7jHXn4.png",
+          "width": 550
+        },
+        {
+          "alt": "",
+          "aspectRatio": 1.1784296144485717,
+          "element": "img",
+          "height": 352,
+          "url": "https://framerusercontent.com/images/HEzOvOirqaWK2PCTcf7h986w0c.png",
+          "width": 575
+        },
+        {
+          "alt": "",
+          "aspectRatio": 1,
+          "element": "img",
+          "height": 26,
+          "url": "https://framerusercontent.com/images/odEnYdXIAubZLZUmSIluzyObGUE.png",
+          "width": 40
+        },
+        {
+          "alt": "",
+          "aspectRatio": 1,
+          "element": "img",
+          "height": 40,
+          "url": "https://framerusercontent.com/images/QowMKLgvELVtVnktpgt93q4VOM.png",
+          "width": 40
+        },
+        {
+          "alt": "",
+          "aspectRatio": 1,
+          "element": "img",
+          "height": 26,
+          "url": "https://framerusercontent.com/images/uSLGPghJr3WwDDEm7mX0bNmxBY.png",
+          "width": 40
+        },
+        {
+          "alt": "",
+          "aspectRatio": 1,
+          "element": "img",
+          "height": 26,
+          "url": "https://framerusercontent.com/images/iPxHNnDVXLINUBXaGTVRllpuVtM.png",
+          "width": 40
+        },
+        {
+          "alt": "",
+          "aspectRatio": 2.08,
+          "element": "img",
+          "height": 661,
+          "url": "https://framerusercontent.com/images/IrDjLwRaXZwlI1x6WBc40387bbQ.png",
+          "width": 1300
+        },
+        {
+          "alt": "",
+          "aspectRatio": 2.376237623762376,
+          "element": "img",
+          "height": 462,
+          "url": "https://framerusercontent.com/images/S4jgTAiTIzalY7sYMnkEQR8uHd0.svg",
+          "width": 1200
+        },
+        {
+          "alt": "",
+          "aspectRatio": 1.186454642827717,
+          "element": "img",
+          "height": 270,
+          "url": "https://framerusercontent.com/images/EbBwZG8ecGjKfWbdracPIicOAHE.png",
+          "width": 450
+        },
+        {
+          "alt": "",
+          "aspectRatio": 1.186454642827717,
+          "element": "img",
+          "height": 278,
+          "url": "https://framerusercontent.com/images/l90uSa62HSmSbPThUnMq1C5Fg.png",
+          "width": 450
+        },
+        {
+          "alt": "",
+          "aspectRatio": 1.1864406779661016,
+          "element": "img",
+          "height": 1227,
+          "url": "https://framerusercontent.com/images/BSArZCAWK692liMp9kkFqqGf6w.png",
+          "width": 1919
+        },
+        {
+          "alt": "",
+          "aspectRatio": 1.1864406779661016,
+          "element": "img",
+          "height": 1118,
+          "url": "https://framerusercontent.com/images/znk5RcmkPXRh8ZqegYA0QAGrs.png",
+          "width": 1920
+        },
+        {
+          "alt": "",
+          "aspectRatio": 1.1522842639593909,
+          "element": "img",
+          "height": 56,
+          "url": "https://framerusercontent.com/images/hIDqfiTbY3IysibAQMXdLAh3FIg.svg",
+          "width": 227
+        },
+        {
+          "alt": "",
+          "aspectRatio": 1,
+          "element": "img",
+          "height": 164,
+          "url": "https://framerusercontent.com/images/fgs2fO0j3a60aACvc1MEXuKtfFw.png",
+          "width": 160
+        },
+        {
+          "alt": "",
+          "aspectRatio": 0.9788732394366197,
+          "element": "img",
+          "height": 194,
+          "url": "https://framerusercontent.com/images/t0GMsX7RVkn2nuzULkqAzFsEIlk.svg",
+          "width": 150
+        },
+        {
+          "alt": "",
+          "aspectRatio": 1,
+          "element": "img",
+          "height": 251,
+          "url": "https://framerusercontent.com/images/H8hbJbLKjJfpGrWoNe4K7c5w6c.svg",
+          "width": 248
+        },
+        {
+          "alt": "",
+          "aspectRatio": 5.803571428571429,
+          "element": "img",
+          "height": 111,
+          "url": "https://framerusercontent.com/images/JA5FLLlT0aN0MGe3mWD1926zo.png",
+          "width": 650
+        },
+        {
+          "alt": "",
+          "aspectRatio": 1.000000798806264,
+          "element": "img",
+          "height": 421,
+          "url": "https://framerusercontent.com/images/RN6g00pcccwOXOMeCY8Ilfot6dQ.svg",
+          "width": 420
+        },
+        {
+          "alt": "",
+          "aspectRatio": 1.000000718399062,
+          "element": "img",
+          "height": 529,
+          "url": "https://framerusercontent.com/images/ZpmqA0g8sZd5ObaVwBsgzc6dg.svg",
+          "width": 531
+        },
+        {
+          "alt": "Abstract Image",
+          "aspectRatio": 0.19375,
+          "element": "img",
+          "height": 480,
+          "url": "https://framerusercontent.com/images/HCZjQc7lLsn2riEarMNNIDMfuGE.png",
+          "width": 93
+        },
+        {
+          "alt": "",
+          "aspectRatio": 0.42660550458715596,
+          "element": "img",
+          "height": 217,
+          "url": "https://framerusercontent.com/images/AK29gH5L0J9sCE64UYDBwf1P4.svg",
+          "width": 93
+        },
+        {
+          "alt": "Abstract Image",
+          "aspectRatio": 0.19375,
+          "element": "img",
+          "height": 478,
+          "url": "https://framerusercontent.com/images/1Tf6fjkAqjtPFlnFvGiThI4gko.png",
+          "width": 93
+        }
+      ]
+    },
+    "colors": [
+      {
+        "color": "rgb(0, 0, 0)",
+        "count": 2592,
+        "frequency": 2592,
+        "usage": [
+          "text",
+          "background"
+        ]
+      },
+      {
+        "color": "rgb(42, 45, 49)",
+        "count": 467,
+        "frequency": 467,
+        "usage": [
+          "background"
+        ]
+      },
+      {
+        "color": "rgb(95, 99, 108)",
+        "count": 151,
+        "frequency": 151,
+        "usage": [
+          "background"
+        ]
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "count": 146,
+        "frequency": 146,
+        "usage": [
+          "background",
+          "text"
+        ]
+      },
+      {
+        "color": "rgb(41, 44, 48)",
+        "count": 108,
+        "frequency": 108,
+        "usage": [
+          "background"
+        ]
+      },
+      {
+        "color": "rgb(96, 100, 109)",
+        "count": 85,
+        "frequency": 85,
+        "usage": [
+          "background"
+        ]
+      },
+      {
+        "color": "rgb(50, 53, 57)",
+        "count": 44,
+        "frequency": 44,
+        "usage": [
+          "background"
+        ]
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "count": 42,
+        "frequency": 42,
+        "usage": [
+          "text"
+        ]
+      },
+      {
+        "color": "rgb(91, 95, 104)",
+        "count": 41,
+        "frequency": 41,
+        "usage": [
+          "background"
+        ]
+      },
+      {
+        "color": "rgb(0, 0, 238)",
+        "count": 28,
+        "frequency": 28,
+        "usage": [
+          "text"
+        ]
+      },
+      {
+        "color": "rgb(7, 167, 33)",
+        "count": 21,
+        "frequency": 21,
+        "usage": [
+          "text",
+          "background"
+        ]
+      },
+      {
+        "color": "rgb(173, 176, 183)",
+        "count": 15,
+        "frequency": 15,
+        "usage": [
+          "text"
+        ]
+      },
+      {
+        "color": "rgb(12, 12, 13)",
+        "count": 12,
+        "frequency": 12,
+        "usage": [
+          "background"
+        ]
+      },
+      {
+        "color": "rgb(28, 30, 32)",
+        "count": 8,
+        "frequency": 8,
+        "usage": [
+          "background"
+        ]
+      },
+      {
+        "color": "rgb(107, 112, 122)",
+        "count": 6,
+        "frequency": 6,
+        "usage": [
+          "text"
+        ]
+      },
+      {
+        "color": "rgb(19, 19, 21)",
+        "count": 4,
+        "frequency": 4,
+        "usage": [
+          "background",
+          "text"
+        ]
+      },
+      {
+        "color": "rgb(23, 25, 27)",
+        "count": 3,
+        "frequency": 3,
+        "usage": [
+          "background"
+        ]
+      },
+      {
+        "color": "rgb(119, 125, 135)",
+        "count": 2,
+        "frequency": 2,
+        "usage": [
+          "text"
+        ]
+      },
+      {
+        "color": "rgba(255, 255, 255, 0.1)",
+        "count": 1,
+        "frequency": 1,
+        "usage": [
+          "background"
+        ]
+      },
+      {
+        "color": "rgba(255, 255, 255, 0.07)",
+        "count": 1,
+        "frequency": 1,
+        "usage": [
+          "background"
+        ]
+      },
+      {
+        "color": "rgba(255, 255, 255, 0.2)",
+        "count": 1,
+        "frequency": 1,
+        "usage": [
+          "background"
+        ]
+      }
+    ],
+    "fontFamilies": [
+      "sans-serif",
+      "\"Helvetica Neue\", sans-serif",
+      "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+      "\"Rethink Sans\", \"Rethink Sans Placeholder\", sans-serif"
+    ],
+    "metadata": {
+      "extractionTime": 29,
+      "title": "Prospera AI"
+    },
+    "typography": [
+      {
+        "color": "rgb(0, 0, 238)",
+        "element": "a",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "text": "Demo CallDemo Call"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "element": "h6",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Demo Call"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "element": "h6",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Demo Call"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "text": "For Agencies and Sales Teams"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "h1",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "68px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "81.6px",
+        "text": "2x Sales Calls with a Linkedin AI SDR"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "span",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "68px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "81.6px",
+        "text": "2x Sales Calls with a Linkedin AI SDR"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "20px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "30px",
+        "text": "Onboard Prospera AI who contacts the right Leads a..."
+      },
+      {
+        "color": "rgb(0, 0, 238)",
+        "element": "a",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "text": "Demo CallDemo Call"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "element": "h6",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Demo Call"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "element": "h6",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Demo Call"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "h2",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "58px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "69.6px",
+        "text": "Auto Prospecting"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Prospera AI finds high intent buyers which perfect..."
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "element": "h2",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "58px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "69.6px",
+        "text": "8"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "element": "span",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "58px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "69.6px",
+        "text": "8"
+      },
+      {
+        "color": "rgb(107, 112, 122)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Intent Data sources"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "element": "h2",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "58px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "69.6px",
+        "text": "65M"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "element": "span",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "58px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "69.6px",
+        "text": "65M"
+      },
+      {
+        "color": "rgb(107, 112, 122)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Decision Makers"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "h2",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "58px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "69.6px",
+        "text": "Lead Research and Enrichment"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "text": "Prospera AI will analyse the leads Linkedin profil..."
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "text": "Relevant information about the leads company get e..."
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "text": "Enriches missing information from 3rd party data p..."
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "h2",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "58px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "69.6px",
+        "text": "Personalised Message Sending"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Prospera generates a unique highly personalised me..."
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "element": "h2",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "58px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "69.6px",
+        "text": "+1k"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "element": "span",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "58px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "69.6px",
+        "text": "+1k"
+      },
+      {
+        "color": "rgb(107, 112, 122)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Monthly Messages/Account"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "element": "h2",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "58px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "69.6px",
+        "text": "50%"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "element": "span",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "58px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "69.6px",
+        "text": "50%"
+      },
+      {
+        "color": "rgb(107, 112, 122)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Higher Reply Rates"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "p",
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "13px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "19.5px",
+        "text": "Leads Contacted"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "h2",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "58px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "69.6px",
+        "text": "Booked Calls without the Headaches"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Onboard your Linkedin AI Agent in less than 10 min..."
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "33px",
+        "text": "Connect your Tools"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Give Prospera AI access to your Linkedin and CRM"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "33px",
+        "text": "Define your ideal client profile"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "We'll find high intent leads who perfectly match y..."
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "33px",
+        "text": "Train Prospera"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Your Linkedin AI SDR who speaks in your tone of vo..."
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "33px",
+        "text": "Monitor campaign results"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Relax and see how Prospera AI books sales calls in..."
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "h2",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "58px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "69.6px",
+        "text": "Intent Data Sources"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Automatically reach out to leads who are looking f..."
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "h4",
+        "fontFamily": "\"Rethink Sans\", \"Rethink Sans Placeholder\", sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "700",
+        "letterSpacing": "normal",
+        "lineHeight": "33px",
+        "text": "Connections and Followers"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "New Linkedin connections who match your ICP"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "h4",
+        "fontFamily": "\"Rethink Sans\", \"Rethink Sans Placeholder\", sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "700",
+        "letterSpacing": "normal",
+        "lineHeight": "33px",
+        "text": "Webinar Sign ups"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Leads that signed up for your webinars"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "h4",
+        "fontFamily": "\"Rethink Sans\", \"Rethink Sans Placeholder\", sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "700",
+        "letterSpacing": "normal",
+        "lineHeight": "33px",
+        "text": "Social Engagment"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Capture prospects who engage with your or competit..."
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "h4",
+        "fontFamily": "\"Rethink Sans\", \"Rethink Sans Placeholder\", sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "700",
+        "letterSpacing": "normal",
+        "lineHeight": "33px",
+        "text": "Job Postings"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Job positions that your service can enhance or rep..."
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "h4",
+        "fontFamily": "\"Rethink Sans\", \"Rethink Sans Placeholder\", sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "700",
+        "letterSpacing": "normal",
+        "lineHeight": "33px",
+        "text": "Linkedin Lead Forms"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Connect your ad or webinar forms from Linkedin"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "h4",
+        "fontFamily": "\"Rethink Sans\", \"Rethink Sans Placeholder\", sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "700",
+        "letterSpacing": "normal",
+        "lineHeight": "33px",
+        "text": "News"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Find companies or people mentioned in the news"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "h2",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "58px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "69.6px",
+        "text": "Pricing"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Inter Tight\", \"Inter Tight Placeholder\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "500",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Save thousands on SDR's and disconnected tools."
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "h4",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "33px",
+        "text": "Starter"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "h3",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "57.6px",
+        "text": "$75"
+      },
+      {
+        "color": "rgb(119, 125, 135)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "/ month"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Billed yearly"
+      },
+      {
+        "color": "rgb(0, 0, 238)",
+        "element": "a",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "text": "Demo CallDemo Call"
+      },
+      {
+        "color": "rgb(19, 19, 21)",
+        "element": "h6",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Demo Call"
+      },
+      {
+        "color": "rgb(19, 19, 21)",
+        "element": "h6",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Demo Call"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "What’s Included"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "text": "1000 Sending Credits"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "text": "Advanced Research Agent"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "text": "3 Campaigns/Account"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "text": "CRM Integrations"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "text": "API Access"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "text": "Customer Success Manager"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "h4",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "22px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "33px",
+        "text": "Scale"
+      },
+      {
+        "color": "rgb(173, 176, 183)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "text": "Most Popular"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "h3",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "57.6px",
+        "text": "$299"
+      },
+      {
+        "color": "rgb(119, 125, 135)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "for 5 accounts / month"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Billed yearly"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "element": "a",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "text": "Demo CallDemo Call"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "h6",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Demo Call"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "h6",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Demo Call"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "What’s Included"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "text": "1000 Sending Credits"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "text": "Advanced Research Agent"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "text": "5 Campaigns/Account"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "text": "CRM Integrations"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "text": "API Access"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "16px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "24px",
+        "text": "Customer Success Manager"
+      },
+      {
+        "color": "rgb(255, 255, 255)",
+        "element": "h2",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "58px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "69.6px",
+        "text": "Talk to the Founders"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Get to know Prospera and let it run your Linkedin ..."
+      },
+      {
+        "color": "rgb(0, 0, 238)",
+        "element": "a",
+        "fontFamily": "sans-serif",
+        "fontSize": "12px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "normal",
+        "text": "Demo CallDemo Call"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "element": "h6",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Demo Call"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "element": "h6",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Demo Call"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "element": "h3",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "57.6px",
+        "text": "+1k"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "element": "span",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "57.6px",
+        "text": "+1k"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Monthly Messages"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "element": "h3",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "57.6px",
+        "text": "50%"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "element": "span",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "57.6px",
+        "text": "50%"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Higher Reply Rates"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "element": "h3",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "57.6px",
+        "text": "8"
+      },
+      {
+        "color": "rgb(0, 0, 0)",
+        "element": "span",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "48px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "57.6px",
+        "text": "8"
+      },
+      {
+        "color": "rgb(146, 150, 159)",
+        "element": "p",
+        "fontFamily": "\"Helvetica Neue\", sans-serif",
+        "fontSize": "18px",
+        "fontWeight": "400",
+        "letterSpacing": "normal",
+        "lineHeight": "27px",
+        "text": "Intent Data Sources"
+      }
+    ]
+  },
+  "timestamp": 1750516817644,
+  "title": "Prospera AI",
+  "url": "https://www.prospera-ai.com/"
+}
